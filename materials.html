@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	Materials page for the UCL-PKU Summer School 2026.
+	Save as: materials.html  (same folder as index.html)
+-->
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+
+	<!-- Header -->
+	<section id="banner">
+		<header id="header">
+			<div class="inner">
+				<a href="index.html" class="logo">Home</a>
+				<nav id="nav">
+					<a href="people.html">People</a>
+					<a href="program2026.html">Program</a>
+					<a href="Materials">Materials</a>
+					<a href="contact.html">Contact</a>
+					<a href="apply.html">Apply</a>
+				</nav>
+				<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+			</div>
+		</header>
+	</section>
+<head>
+	<title>Materials</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		/* Materials-specific styling, scoped to this page only */
+		.day-block { margin-bottom: 2em; }
+		.day-block > h3 {
+			border-bottom: solid 2px #002060;
+			padding-bottom: 0.3em;
+			margin-bottom: 1em;
+		}
+		.talk { margin-bottom: 2em; }
+		.talk:last-child { margin-bottom: 0; }
+		.talk h4 { margin-bottom: 0.2em; }
+		.talk .talk-title { font-style: italic; color: #555; margin: 0 0 0.6em 0; }
+		.talk .tba { color: #9a6700; font-weight: 600; }
+		.talk .abstract { font-size: 0.95em; }
+		.readings-label { font-weight: 600; margin: 0.8em 0 0.3em 0; }
+		.talk ul.readings { margin: 0 0 0 0; }
+		.talk ul.readings li { font-size: 0.9em; margin-bottom: 0.4em; }
+	</style>
+</head>
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="banner">
+		<header id="header">
+			<div class="inner">
+				<a href="index.html" class="logo">Home</a>
+				<nav id="nav">
+					<a href="people.html">People</a>
+					<a href="program.html">Program</a>
+					<a href="materials.html">Materials</a>
+					<a href="contact.html">Contact</a>
+					<a href="apply.html">Apply</a>
+				</nav>
+				<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+			</div>
+		</header>
+
+		<!-- Banner -->
+		<span style="color: black">
+		<h1>Materials</h1>
+		<p>13-17 July 2026</p>
+		<p>UCL-PKU</p>
+		</span>
+	</section>
+
+	<!-- One -->
+	<section id="one" class="wrapper">
+		<div class="inner">
+			<article>
+				<h2>Talk materials</h2>
+				<p>Abstracts and suggested reading, organised by day. Entries marked <span style="color:#9a6700;font-weight:600">TBA</span> will be updated as speakers send their materials.</p>
+
+				<!-- ============ MONDAY ============ -->
+				<div class="box day-block">
+					<h3>Monday 13 July</h3>
+
+					<div class="talk">
+						<h4>Zheng Wang</h4>
+						<p class="talk-title">Prefrontal scaling of reward prediction error readout gates reinforcement-derived adaptive behavior in primates</p>
+						<p class="abstract">Reinforcement learning (RL) driven by reward prediction errors (RPEs) enables adaptive behaviour across species. While the neural encoding of RPE signals in midbrain and striatal circuits is well documented, how prefrontal architectural differences translate reinforcement signals into species-specific behavioural flexibility remains unknown. Using cross-species RL modelling, neuroimaging, and network-based transcriptomics, this work shows that humans and macaques share molecular and neuroanatomical infrastructure for RPE computations, with convergent upregulation of monoaminergic and synaptic genes in prefrontal and subcortical regions. Despite this conservation, humans show superior reversal-learning performance, disproportionately recruiting dorsal anterior cingulate (dACC) and dorsolateral prefrontal cortex (dlPFC). The findings establish a prefrontal-dependent readout constraint in which adaptive decision-making scales with the areal extent of dACC/dlPFC engagement governing RPE-to-action translation.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Miyamoto et al. (2026). Brain activity, disruption and connectivity comparisons identify origins of human metacognition in other primates. <em>Nature Human Behaviour</em>.</li>
+							<li>Fujimoto et al. (2026). Ventrolateral prefrontal cortex in macaques guides decisions in different learning conditions. <em>Nature Communications</em>.</li>
+							<li>Ding et al. (2026). Model-based and model-free valuation signals in the human brain vary markedly in relation to individual differences in behavioral control. <em>Cell Reports</em>.</li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Oliver Robinson</h4>
+						<p class="talk-title">An introduction to Reinforcement Learning</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Computational perspectives on human fear and anxiety. <a href="https://pubmed.ncbi.nlm.nih.gov/35234834/">pubmed.ncbi.nlm.nih.gov/35234834</a></li>
+							<li>Reinforcement Learning in Patients With Mood and Anxiety Disorders vs Control Individuals: A Systematic Review and Meta-analysis. <a href="https://www.sciencedirect.com/science/article/pii/S0149763422004481">sciencedirect.com</a></li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Bee Quinn</h4>
+						<p class="talk-title">Computational modelling of reinforcement learning tasks with hBayesDM.</p>
+						<p class="abstract">Computational models provide valuable insight into the parameters underlying individual differences in reinforcement learning, but how do we reliably extract these parameters from experimental task data? This workshop provides a practical introduction to Bayesian MCMC modelling using the hBayesDM library. Attendees will be instructed on how to use R for the hands-on practice fitting of computational models to experimental data, extracting reinforcement learning parameters, and interpreting the output. The workshop also covers model validation through evidence comparison, data simulation, and parameter refitting. Attendees will leave with a working pipeline for fitting and validating computational models, applicable to a range of tasks both within and beyond reinforcement learning.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+						<li>Daw, N. D. (2011). Trial-by-trial data analysis using computational models. Decision making, affect, and learning: Attention and performance XXIII, 23(1), 3-38.</li>
+						<li>Ahn, W. Y., Haines, N., & Zhang, L. (2017). Revealing neurocomputational mechanisms of reinforcement learning and decision-making with the hBayesDM package. Computational Psychiatry (Cambridge, Mass.), 1, 24.</li>
+					</div>
+				</div>
+
+				<!-- ============ TUESDAY ============ -->
+				<div class="box day-block">
+					<h3>Tuesday 14 July</h3>
+
+					<div class="talk">
+						<h4>Yixin Zhu <span style="font-weight:400;color:#777">&middot; Peking University</span></h4>
+						<p class="talk-title">Reverse-Engineering the Dark Matter of Intelligence: A Unified Framework for Modeling Minds and Probing Machines</p>
+						<p class="abstract">Contemporary AI excels with large data on narrow tasks, whereas human intelligence does the reverse, generalising from sparse experience. This talk attributes the gap to the unobservable structure underlying behaviour &mdash; the &ldquo;dark matter&rdquo; of intelligence: functionality, physics, intentionality, causality, and utility (the FPICU framework; Zhu et al., 2020). At its centre is a unified framework for recovering such structure in both biological and artificial agents: a structured process model, grounded in cognitive theory, whose interpretable parameters are jointly constrained by theory, task, and data, then adjudicated through dissociation paradigms, model&ndash;human&ndash;baseline comparison, and cross-task generalisation. The same framework governs computational modelling of human cognition (intuitive physics, causal learning, exploratory play) and the systematic probing of large language and vision models in moral reasoning and creativity.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li><strong>The paradigm &mdash; common sense and the &ldquo;dark matter&rdquo; of intelligence:</strong> Zhu, Y., et al. (2020). Dark, Beyond Deep: A Paradigm Shift to Cognitive AI with Humanlike Common Sense. <em>Engineering</em>, 6(3), 310&ndash;345. &middot; Lake, B. M., Ullman, T. D., Tenenbaum, J. B., &amp; Gershman, S. J. (2017). Building Machines That Learn and Think Like People. <em>Behavioral and Brain Sciences</em>, 40, e253.</li>
+							<li><strong>Probabilistic &amp; generative models of cognition:</strong> Tenenbaum, Kemp, Griffiths &amp; Goodman (2011). How to Grow a Mind. <em>Science</em>, 331(6022), 1279&ndash;1285. &middot; Griffiths, Chater, Kemp, Perfors &amp; Tenenbaum (2010). Probabilistic Models of Cognition. <em>Trends in Cognitive Sciences</em>, 14(8), 357&ndash;364.</li>
+							<li><strong>Intuitive physics:</strong> Battaglia, Hamrick &amp; Tenenbaum (2013). Simulation as an Engine of Physical Scene Understanding. <em>PNAS</em>, 110(45), 18327&ndash;18332. &middot; Kubricht, Holyoak &amp; Lu (2017). Intuitive Physics: Current Research and Controversies. <em>Trends in Cognitive Sciences</em>, 21(10), 749&ndash;759.</li>
+							<li><strong>Causal learning &amp; exploratory play:</strong> Gopnik et al. (2004). A Theory of Causal Learning in Children. <em>Psychological Review</em>, 111(1), 3&ndash;32. &middot; Gopnik &amp; Wellman (2012). Reconstructing Constructivism. <em>Psychological Bulletin</em>, 138(6), 1085&ndash;1108.</li>
+							<li><strong>Intentionality &amp; theory of mind:</strong> Baker, Jara-Ettinger, Saxe &amp; Tenenbaum (2017). Rational Quantitative Attribution of Beliefs, Desires and Percepts in Human Mentalizing. <em>Nature Human Behaviour</em>, 1, 0064. &middot; Jara-Ettinger (2019). Theory of Mind as Inverse Reinforcement Learning. <em>Current Opinion in Behavioral Sciences</em>, 29, 105&ndash;110.</li>
+							<li><strong>Probing &amp; evaluating large models &mdash; the &ldquo;psychology of AI&rdquo;:</strong> Binz &amp; Schulz (2023). Using Cognitive Psychology to Understand GPT-3. <em>PNAS</em>, 120(6), e2218523120. &middot; Shiffrin &amp; Mitchell (2023). Probing the Psychology of AI Models. <em>PNAS</em>, 120(10), e2300963120. &middot; Mitchell &amp; Krakauer (2023). The Debate Over Understanding in AI&rsquo;s Large Language Models. <em>PNAS</em>, 120(13), e2215907120. &middot; Demszky et al. (2023). Using Large Language Models in Psychology. <em>Nature Reviews Psychology</em>, 2, 688&ndash;701.</li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Ayelet Landau</h4>
+						<p class="talk-title">Rhythmic attention negotiates competition along the visual hierarchy</p>
+						<p class="abstract">Navigating the environment involves engaging with multiple objects, each activating specific neuronal populations that compete when objects appear together. Classical attention theories suggest selection biases one population over another, while recent research shows perception fluctuates over time: a single object processed over time shows a ~8 Hz fluctuation, whereas attention distributed over two objects shows a 4 Hz fluctuation, possibly reflecting division of the 8 Hz rhythm between competing objects. This talk explores these rhythmic phenomena &mdash; attentional sampling &mdash; across the visual hierarchy, arguing that sampling is a selection mechanism that negotiates neuronal competition, manifesting as early as eye channels and extending to complex features higher in the hierarchy and potentially beyond the visual modality.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Re, D., Kusnir, F. &amp; Landau, A. N. (2025). Attentional sampling resolves competition along the visual hierarchy. <em>Trends in Cognitive Sciences</em>. <a href="https://doi.org/10.1016/j.tics.2025.06.004">doi:10.1016/j.tics.2025.06.004</a></li>
+							<li>Kusnir, F. &amp; Landau, A. N. (2025). Temporality and the brain: the long and winding emergence of time in cognitive neuroscience. <em>Human Arenas</em>. <a href="https://doi.org/10.1007/s42087-025-00497-8">doi:10.1007/s42087-025-00497-8</a></li>
+							<li>Re, D., Karvat, G. &amp; Landau, A. N. (2023). Attentional sampling between eye-channels. <em>Journal of Cognitive Neuroscience</em>, 35(8), 1350&ndash;1360. <a href="https://doi.org/10.1162/jocn_a_02018">doi:10.1162/jocn_a_02018</a></li>
+							<li>Landau, A. N. (2018). Neuroscience: a neural mechanism for rhythmic sampling. <em>Current Biology</em>, 28(15), 830&ndash;832. <a href="http://doi.org/10.1016/j.cub.2018.05.081">doi:10.1016/j.cub.2018.05.081</a></li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Zilong Ji</h4>
+						<p class="talk-title">Hands-on tutorial: modelling the head-direction system</p>
+						<p class="abstract">A hands-on tutorial based on the head-direction system in the brain, introducing a ring attractor model of the head-direction system (including hands-on coding in Google Colab). Time permitting, it will also introduce a simple artificial neural network that encodes the head-direction system (also with hands-on coding in Google Colab). The session covers both mechanistic and normative models in computational neuroscience, using a tidy example of the head-direction circuit.</p>
+					</div>
+				</div>
+
+				<!-- ============ WEDNESDAY ============ -->
+				<div class="box day-block">
+					<h3>Wednesday 15 July</h3>
+
+					<div class="talk">
+						<h4>Jian Li</h4>
+						<p class="talk-title">The perception, implementation and alternation of human altruism</p>
+						<p class="abstract">Altruism refers to concern for the welfare of others, often at a cost to the altruistic actor. Despite intensive research, how altruistic reputation is inferred and how altruistic preference is modulated by decision context remain fiercely debated. Across a series of experiments, this work shows a combination of factors influencing the inference and implementation of altruistic preference, with dedicated neural networks convening social and private information to compute a value signal behaviourally manifested as altruistic choice. Causal evidence using pharmacological and TMS methods demonstrates the elimination or reversal of the perception and manifestation of altruism by targeting these dedicated neural-network activities.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Teoh, Y. Y., Yao, Z., Cunningham, W. A. &amp; Hutcherson, C. A. Attentional priorities drive effects of time pressure on altruistic choice. <a href="https://doi.org/10.1038/s41467-020-17326-x">doi:10.1038/s41467-020-17326-x</a></li>
+							<li>Siegel, J. Z., Mathys, C., Rutledge, R. B. &amp; Crockett, M. J. Beliefs about bad people are volatile. <a href="https://doi.org/10.1038/s41562-018-0425-1">doi:10.1038/s41562-018-0425-1</a></li>
+							<li>Zhang, H., Ni, Y. &amp; Li, J. Oxytocin restores context-specific hyperaltruistic preference. <a href="https://doi.org/10.7554/eLife.102756">doi:10.7554/eLife.102756</a></li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Maarten Speekenbrink</h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+
+					<div class="talk">
+						<h4>Shuang Tian</h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+				</div>
+
+				<!-- ============ THURSDAY ============ -->
+				<div class="box day-block">
+					<h3>Thursday 16 July</h3>
+
+					<div class="talk">
+						<h4>Lusha Zhu</h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+
+					<div class="talk">
+						<h4>Marco Wittmann</h4>
+						<p class="talk-title">Neural mechanisms of social structure learning and their behavioural consequences</p>
+						<p class="abstract">Navigating social environments is a fundamental challenge for the brain. While social information is often represented at an individual level, learning the structure in which individuals interact and relate to each other is equally important for adaptive social decision-making. This talk presents evidence across behavioural, fMRI, and ongoing MEG and transcranial-ultrasound studies suggesting that medial prefrontal cortex represents the combinatorial possibilities for social interaction in a compressed format resembling basis functions observed in other domains. These basis functions capture group-level structure and predict specific choice patterns, including counterintuitive effects where decision-irrelevant players influence behaviour. Initial MEG results suggest such structure representations emerge rapidly after stimulus presentation, and preliminary non-invasive deep-brain-stimulation evidence is consistent with a role of prefrontal cortex in embedding social information into its structural context.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Wittmann, M. K., Lin, Y., Pan, D., Braun, M. N., Dickson, C., Spiering, L., et al. (2025). Basis functions for complex social decisions in dorsomedial frontal cortex. <em>Nature</em>. <a href="https://doi.org/10.1038/s41586-025-08705-9">doi:10.1038/s41586-025-08705-9</a></li>
+							<li>Dayan, P. &amp; Hinton, G. E. Feudal Reinforcement Learning.</li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Philippa Johnson</h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+
+					<div class="talk">
+						<h4>Yuki Ma <span style="font-weight:400;font-style:italic;color:#777">(non-mandatory workshop)</span></h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+				</div>
+
+				<!-- ============ FRIDAY ============ -->
+				<div class="box day-block">
+					<h3>Friday 17 July</h3>
+
+					<div class="talk">
+						<h4>Yanchao Bi</h4>
+						<p class="talk-title">Weaving vision and language into semantic memory</p>
+						<p class="abstract">The human brain stores a tremendous amount of knowledge about the world, the foundation of object recognition, language, thought, and reasoning. What are the neural codes of semantic-knowledge representation? Is the knowledge that &ldquo;roses are red&rdquo; simply the memory trace of perceiving the colour of roses, stored within colour-sensitive neural systems? What about knowledge not directly perceived by the senses, such as &ldquo;freedom&rdquo; or &ldquo;rationality&rdquo;? This talk presents recent studies addressing these issues with various special populations and cross-species comparisons, discussing them in the context of classical findings and neural frameworks of semantic memory.</p>
+						<p class="readings-label">Suggested reading</p>
+						<ul class="readings">
+							<li>Bi, Y. Dual coding of knowledge in the human brain. <em>Trends in Cognitive Sciences</em>. <a href="https://doi.org/10.1016/j.tics.2021.07.006">doi:10.1016/j.tics.2021.07.006</a></li>
+							<li>Combined evidence from artificial neural networks and human brain-lesion models reveals that language modulates vision in human perception. <a href="https://doi.org/10.1038/s41562-025-02357-5">doi:10.1038/s41562-025-02357-5</a></li>
+						</ul>
+					</div>
+
+					<div class="talk">
+						<h4>Megan Peters</h4>
+						<p class="tba">TBA &mdash; materials to follow.</p>
+					</div>
+				</div>
+
+			</article>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="logos">
+				<img height="auto" id="footer-logo-UCL" alt="" src="images/UCL.jpg"/>
+				<img id="footer-logo-PKU" alt="" src="images/PKU.png"/>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="flex">
+				<div class="copyright">
+					&copy; Design: <a href="https://templated.co">TEMPLATED</a> licensed under CC BY 3.0. Images: <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+				<ul class="icons">
+					<li><a href="mailto: pkuuclsummerschool@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
